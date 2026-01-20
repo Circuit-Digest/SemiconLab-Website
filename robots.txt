@@ -1,12 +1,12 @@
 # Robots.txt for SemiconLab (Semicon Lab)
-# Official Website: https://semiconlab.com
+# Official Website: https://semiconlab.in
 # Brand Names: SemiconLab, Semicon Lab
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://semiconlab.com/sitemap.xml
+Sitemap: https://semiconlab.in/sitemap.xml
 
 # Allow all major crawlers
 User-agent: Googlebot

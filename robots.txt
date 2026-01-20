@@ -1,0 +1,20 @@
+# Robots.txt for SemiconLab (Semicon Lab)
+# https://semiconlab.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://semiconlab.com/sitemap.xml
+
+# Allow all crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow assets that don't need indexing
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/

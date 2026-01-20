@@ -1,39 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - SemiconLab / Semicon Lab -->
   <url>
     <loc>https://semiconlab.com/</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://semiconlab.com/assets/images/header/hero-image.jpg</image:loc>
+      <image:title>SemiconLab Semicon Lab Open Source Hardware</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://semiconlab.com/assets/images/logo.svg</image:loc>
+      <image:title>SemiconLab Semicon Lab Logo</image:title>
+    </image:image>
   </url>
+  
+  <!-- About Section -->
   <url>
     <loc>https://semiconlab.com/#about</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Products Section - LiteWing, GeoLinker -->
   <url>
     <loc>https://semiconlab.com/#portfolio</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://semiconlab.com/assets/images/portfolio/5.jpg</image:loc>
+      <image:title>SemiconLab Semicon Lab LiteWing ESP32 Drone</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://semiconlab.com/assets/images/portfolio/1.jpg</image:loc>
+      <image:title>SemiconLab Semicon Lab GeoLinker GPS Tracker</image:title>
+    </image:image>
   </url>
+  
+  <!-- Services Section -->
   <url>
     <loc>https://semiconlab.com/#services</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://semiconlab.com/#contact</loc>
-    <lastmod>2026-01-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  
+  <!-- Tutorials Section -->
   <url>
     <loc>https://semiconlab.com/#blog</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://semiconlab.com/#contact</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
